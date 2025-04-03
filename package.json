@@ -1,0 +1,15 @@
+{
+  "name": "chime",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "scripts": {
+    "register": "node ./src/registerCommands.js"
+  },
+  "author": "Dennis5618",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.13.1"
+  }
+}
