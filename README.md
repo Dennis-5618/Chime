@@ -5,15 +5,15 @@ Chime is an open-source Discord bot made with discord.js v14. It's goal is to en
 Chime is still in early development and new features might be introduced frequently. As a result, compatibility between versions is not guaranteed.
 
 ## ✨Features
-✅ Easy to understand code – Well-structured and beginner-friendly
+✅ Easy to understand code - Well-structured and beginner-friendly
 
-✅ Robust command and error handling – Ensures smooth performance
+✅ Robust command and error handling - Ensures smooth performance
 
-✅ Advanced ticket system – Manage support tickets easily
+✅ Advanced ticket system - Manage support tickets easily
 
 ✅ Giveaway system - give back to your community
 
-✅ MongoDB integration – Simple yet powerful database solution
+✅ MongoDB integration - Simple yet powerful database solution
 
 ## 📌Planned Features
 🚧 Various moderation commands
@@ -39,7 +39,7 @@ npm install
 
 Alternatively, if you want to install the dependencies manually:
 ```bash
-npm install discord.js dotenv mongoose
+npm install discord.js dotenv mongoose ms
 ```
 
 ### 3️⃣ Setup environment variables
