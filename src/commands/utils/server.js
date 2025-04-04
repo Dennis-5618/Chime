@@ -11,7 +11,7 @@ module.exports = {
         const textChannels = guild.channels.cache.filter(c => c.type === ChannelType.GuildText).size;
         const voiceChannels = guild.channels.cache.filter(c => c.type === ChannelType.GuildVoice).size;
 
-        // Creating the embed
+        // Creating and sending the embed
         const embed = new EmbedBuilder()
             .setTitle('Server information')
             .setColor('#e6534e')

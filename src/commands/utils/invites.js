@@ -50,6 +50,8 @@ module.exports = {
             };
 
             const userInviteCount = inviteCount.get(user.id) ?? 0;
+
+            // Creating and sending the embed
             const userEmbed = new EmbedBuilder()
                 .setTitle(`${user.tag}'s invites`)
                 .setColor('#e6534e')

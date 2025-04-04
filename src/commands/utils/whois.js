@@ -37,7 +37,7 @@ module.exports = {
             ? activities.map(a => `${a.type.toLowerCase().replace('_', ' ')}: ${a.name}`).join('\n')
             : 'None';
 
-        // Creating the embed
+        // Creating and sending the embed
         const embed = new EmbedBuilder()
             .setTitle('User information')
             .setThumbnail(user.displayAvatarURL({ dynamic: true, size: 256 }))

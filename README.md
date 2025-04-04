@@ -11,10 +11,12 @@ Chime is still in early development and new features might be introduced frequen
 
 ✅ Advanced ticket system – Manage support tickets easily
 
+✅ Giveaway system - give back to your community
+
 ✅ MongoDB integration – Simple yet powerful database solution
 
 ## 📌Planned Features
-🚧 Giveaway system - give back to your community
+More to come very soon!
 
 ## 🛠️ Installation
 To install Chime yourself you can follow the following steps

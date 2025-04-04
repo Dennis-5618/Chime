@@ -1,5 +1,6 @@
 const { Events } = require('discord.js');
 const { openTicket, closeTicket } = require('../helpers/tickets');
+const { enterGiveaway } = require('../helpers/giveaway');
 
 module.exports = {
     name: Events.InteractionCreate,
@@ -31,6 +32,9 @@ module.exports = {
                     break;
                 case 'chime_close-ticket':
                     await closeTicket(interaction);
+                    break;
+                case 'chime_giveaway-enter':
+                    await enterGiveaway(interaction);
                     break;
             };
         };
