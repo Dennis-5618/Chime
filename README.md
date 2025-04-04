@@ -16,7 +16,11 @@ Chime is still in early development and new features might be introduced frequen
 ✅ MongoDB integration – Simple yet powerful database solution
 
 ## 📌Planned Features
-More to come very soon!
+🚧 Various moderation commands
+
+🚧 Logging system
+
+🚧 Polls
 
 ## 🛠️ Installation
 To install Chime yourself you can follow the following steps
@@ -30,7 +34,7 @@ cd Chime
 ### 2️⃣ Install dependencies
 Run the following command to install all required dependencies automatically:
 ```bash
-npm instally
+npm install
 ```
 
 Alternatively, if you want to install the dependencies manually:
