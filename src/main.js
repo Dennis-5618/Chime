@@ -10,7 +10,7 @@ client.commands = new Collection();
 
 (async () => {
     try {
-        // Connecting to the PostgreSQL database
+        // Connecting to the database
         await database();
 
         // Loading the event and command handlers

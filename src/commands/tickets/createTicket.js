@@ -34,7 +34,7 @@ module.exports = {
             return interaction.reply(`I don't have permission to send messages in ${ticketChannel}`);
         };
 
-        // Check if the channel already has a ticket
+        // Check if the user already has a ticket
         const existingTicket = await Ticket.findOne({ channelId: ticketChannel.id });
         if (existingTicket) {
             return interaction.reply('There already is a ticket in that channel');
