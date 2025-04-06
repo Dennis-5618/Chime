@@ -1,10 +1,11 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
 const Ticket = require('../../Schemas/ticket');
 
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('deleteticket')
         .setDescription('Delete ticket message from a channel')
+        .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild)
         .addChannelOption(option => option
             .setName('channel')
             .setDescription('The channel where the ticket message is')
